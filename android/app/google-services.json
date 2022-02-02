@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571140938578",
+    "project_id": "awesomity-lab-todo",
+    "storage_bucket": "awesomity-lab-todo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571140938578:android:b91ae94af2d14f3d0db88b",
+        "android_client_info": {
+          "package_name": "com.example.awesomity_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571140938578-q8uchfedu0rqku4rktrc5kt4evvh05s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJE7MB1KI-tirqxK-hYyME5hH-cBFI-io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571140938578-q8uchfedu0rqku4rktrc5kt4evvh05s7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
