@@ -25,7 +25,8 @@ Widget EmptyTemplate(BuildContext context) {
             ),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context).pushNamed('/add_new_task');
+                  Navigator.of(context)
+                      .pushNamed('/add_new_task', arguments: '');
                 },
                 style: ElevatedButton.styleFrom(
                     primary: Theme.of(context).backgroundColor),

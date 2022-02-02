@@ -28,9 +28,9 @@ class Tasks with ChangeNotifier {
     return _items.firstWhere((task) => task.id == taskId);
   }
 
-  // Task deleteById(var taskId) {
-  //   return _items.removeWhere((task) => task.id == taskId);
-  // }
+  deleteById(var taskId) {
+    return _items.removeWhere((task) => task.id == taskId);
+  }
 
   activeTasks() {
     return _items.where((element) => element.isFinish == false).length;

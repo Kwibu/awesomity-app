@@ -58,12 +58,18 @@ class _TaskDetailsScreenState extends State<TaskDetailsScreen> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(
-                      color: Colors.black12,
-                      padding: const EdgeInsets.all(6),
-                      margin: const EdgeInsets.only(
-                          top: 6, left: 6, right: 0, bottom: 6),
-                      child: const Icon(Icons.edit),
+                    InkWell(
+                      onTap: () {
+                        Navigator.of(context).pushNamed('/add_new_task',
+                            arguments: loadedTask.id);
+                      },
+                      child: Container(
+                        color: Colors.black12,
+                        padding: const EdgeInsets.all(6),
+                        margin: const EdgeInsets.only(
+                            top: 6, left: 6, right: 0, bottom: 6),
+                        child: const Icon(Icons.edit),
+                      ),
                     ),
                     Container(
                       color: Colors.black12,

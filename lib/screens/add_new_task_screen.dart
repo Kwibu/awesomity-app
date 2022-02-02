@@ -29,7 +29,8 @@ class _AddNewTaskScreenState extends State<AddNewTaskScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // todo THE ENDEDTIME SHOULD BE EQUAL TO UPDATED TIME MY MISTAKES
+    // todo THE ENDED TIME SHOULD BE EQUAL TO UPDATED TIME MY MISTAKES
+
     var _newTask = Task(
         id: "",
         title: "",
